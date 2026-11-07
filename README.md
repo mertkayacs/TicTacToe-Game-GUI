@@ -47,6 +47,49 @@ The game is one source file and runs from a single jar.
 | <img src="docs/assets/readme/icons/play.svg" width="18" height="18" alt=""> **Run without building** | The committed jar starts the game with one command. Maven is only needed to build from source. |
 | <img src="docs/assets/readme/icons/repeat.svg" width="18" height="18" alt=""> **Replay prompt** | When a round ends, a dialog asks whether to play again. The first launch also shows a short How To Play dialog. |
 
+## A quick tour
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/howto-dark.webp">
+        <img src="docs/assets/readme/tour/howto-light.webp" alt="The How To Play dialog above an empty Tic-Tac-Toe board">
+      </picture>
+      <h3>How to play</h3>
+      The dialog shown at the first launch, over the empty board.
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/midgame-dark.webp">
+        <img src="docs/assets/readme/tour/midgame-light.webp" alt="A Tic-Tac-Toe board with two X and two O placed">
+      </picture>
+      <h3>Mid-game</h3>
+      X and O take turns on the same board, X first.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/win-dark.webp">
+        <img src="docs/assets/readme/tour/win-light.webp" alt="The dialog &quot;X is the Winner!&quot; asking whether to play again, over a board with a row of X">
+      </picture>
+      <h3>A win</h3>
+      A dialog names the winner and asks whether to play again.
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/tie-dark.webp">
+        <img src="docs/assets/readme/tour/tie-light.webp" alt="The dialog &quot;Its a TIE&quot; asking whether to play again, over a full board">
+      </picture>
+      <h3>A tie</h3>
+      A full board without a line ends in a tie, with the same replay prompt.
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>Captured from the running game on a virtual display. The window frames are drawn by Swing because that display has no window manager.</sub></p>
+
 ## Features
 
 **Gameplay**
